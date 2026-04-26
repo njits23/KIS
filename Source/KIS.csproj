@@ -49,44 +49,44 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>Q:\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>Q:\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="KSPDev_Utils.2.6, Version=2.6.7847.1936, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\Binaries\KSPDev_Utils.2.6.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>Q:\KSP_x64_Data\Managed\System.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\System.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -134,8 +134,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>IF EXIST "Q:\GameData\KIS" xcopy "$(TargetPath)" "Q:\GameData\KIS\Plugins\" /Y
-IF EXIST "Q:\GameData\KIS" xcopy "$(TargetDir)KSPDev_Utils*.dll" "Q:\GameData\KIS\Plugins\" /Y</PostBuildEvent>
+    <PostBuildEvent>IF EXIST "E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\GameData\KIS" xcopy "$(TargetPath)" "E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\GameData\KIS\Plugins\" /Y
+IF EXIST "E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\GameData\KIS" xcopy "$(TargetDir)KSPDev_Utils*.dll" "E:\KSP Versions\Kerbal Space Program_1.12.3_profiling\GameData\KIS\Plugins\" /Y</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
